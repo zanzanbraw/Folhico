@@ -60,25 +60,23 @@ public class FloraDetalheActivity extends AppCompatActivity {
 
         } else if (tela == 4) {
 
-            setTitle( "XXXXXX" );
+            setTitle( "Cajueiro" );
 
-            imageFloraDetalhe.setImageResource( R.drawable.xinxozinho );
+            imageFloraDetalhe.setImageResource( R.drawable.cajueiro );
 
-            textViewDescricacaoFlora.setText( "O xinxozinho (Cryptanthus zonatus) é uma bromélia terrestre e geralmente é encontrada escondida entre o folhiço, curtindo a sombra da mata.\n" +
-                    "Trata-se de uma espécie endêmica da Mata Atlântica, ou seja, ela só existe nas matas do Nordeste do Brasil e em nenhum outro lugar do mundo. Essa exclusividade se deve a sua distribuição restrita: ela ocorre apenas no RN, PB e PE.\n" +
-                    "Sua floração acontece entre os meses de março e abril, presenteando-nos com uma flor alva bem pequena.\n" );
-            textViewHistoricoFlora.setText( "O xinxozinho encontra-se na lista de espécies ameaçadas de extinção." );
+            textViewDescricacaoFlora.setText( "Cajueiro (Anacardium occidentale L.) árvore frutífera que pode atingir os 12m de altura, é nativa da mata atlântica. Apresenta flores pequenas, branco-rosadas e perfumadas, durante os meses de julho a novembro. A safra acontece de janeiro a fevereiro." );
+            textViewHistoricoFlora.setText( "A espécie é originária do Nordeste do Brasil e atrai diferentes animais para consumo do seu fruto e goma, principalmente os saguis." );
+
 
         } else if (tela == 5) {
 
-            setTitle( "yyyyyyy" );
+            setTitle( "Jatobá" );
 
-            imageFloraDetalhe.setImageResource( R.drawable.xinxozinho );
+            imageFloraDetalhe.setImageResource( R.drawable.jatoba );
 
-            textViewDescricacaoFlora.setText( "O xinxozinho (Cryptanthus zonatus) é uma bromélia terrestre e geralmente é encontrada escondida entre o folhiço, curtindo a sombra da mata.\n" +
-                    "Trata-se de uma espécie endêmica da Mata Atlântica, ou seja, ela só existe nas matas do Nordeste do Brasil e em nenhum outro lugar do mundo. Essa exclusividade se deve a sua distribuição restrita: ela ocorre apenas no RN, PB e PE.\n" +
-                    "Sua floração acontece entre os meses de março e abril, presenteando-nos com uma flor alva bem pequena.\n" );
-            textViewHistoricoFlora.setText( "O xinxozinho encontra-se na lista de espécies ameaçadas de extinção." );
+            textViewDescricacaoFlora.setText( "O jatobá (Hymenaea courbaril) é uma árvore de grande porte, 15 a 30 metros de altura. Tronco liso meio avermelhado, com madeira pesada. A polinização é feita por por várias espécies de morcegos e beija-flores que carregam o pólen por distâncias de até 7 quilômetros e a dispersão das sementes ocorre principalmente pela gravidade." );
+            textViewHistoricoFlora.setText( "É considerada sagrada por povos indígenas, que serviam os frutos antes de rituais de meditação, pois acreditavam que o fruto trazia equilíbrio mental, e pesquisas recentes demonstraram que realmente, o fruto pode trazer benefícios à organização mental." );
+
 
         }
 
