@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     LinearLayout faunaLayout;
     LinearLayout floraLayout;
     LinearLayout qrcodeLayout;
+    LinearLayout parqueLayout;
     final int BARCODE_READER_REQUEST_CODE = 10;
 
     @Override
@@ -26,10 +27,12 @@ public class MainActivity extends AppCompatActivity {
         faunaLayout = (LinearLayout) findViewById(R.id.faunaLayout);
         floraLayout = (LinearLayout) findViewById(R.id.floraLayout);
         qrcodeLayout = (LinearLayout) findViewById(R.id.qrcodeLayout);
+        parqueLayout = (LinearLayout) findViewById(R.id.parqueLayout);
 
         faunaLayout.setOnClickListener( faunaLayoutOnClickListener );
         floraLayout.setOnClickListener( floraLayoutOnClickListener );
         qrcodeLayout.setOnClickListener( qrcodeLayoutOnClickListener );
+        parqueLayout.setOnClickListener( parqueLayoutOnClickListener );
 
     }
 
@@ -100,6 +103,18 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+
+    View.OnClickListener parqueLayoutOnClickListener = new View.OnClickListener() {
+
+        public void onClick(View v) {
+
+            Intent parqueIntent = new Intent(MainActivity.this, ParqueDetalheActivity.class);
+
+            startActivity(parqueIntent);
+
+        }
+
+    };
 
 
 

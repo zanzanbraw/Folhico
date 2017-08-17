@@ -83,17 +83,44 @@
 
     </LinearLayout>
 
+
     <LinearLayout
-        android:layout_width="170dp"
-        android:layout_height="170dp"
+        android:id="@+id/parqueLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/modulo_shape"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/leaf"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#A7904C"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:text="PARQUE DAS DUNAS"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="120dp"
         android:layout_marginTop="30dp"
         android:background="#FFF"
         android:padding="10dp"
         android:layout_gravity="center">
 
         <ImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:background="@drawable/logo_parque"/>
 
 
