@@ -8,6 +8,7 @@
     android:padding="10dp"
     tools:context="com.example.fernando.myapplication.MainActivity">
 
+
     <LinearLayout
         android:id="@+id/planta1Layout"
         android:layout_width="match_parent"

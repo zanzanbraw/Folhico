@@ -5,9 +5,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
+import android.widget.ListView;
 
 public class FloraListActivity extends AppCompatActivity {
 
+    private ListView mListView;
     LinearLayout planta1Layout;
     LinearLayout planta2Layout;
     LinearLayout planta3Layout;
