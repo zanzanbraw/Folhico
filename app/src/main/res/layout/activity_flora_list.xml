@@ -25,7 +25,7 @@
             android:gravity="center"
             android:textStyle="bold"
             android:textSize="20sp"
-            android:text="Flor de Pau Brasil"/>
+            android:text="Pau Brasil"/>
 
     </LinearLayout>
 

@@ -30,7 +30,7 @@ public class FloraDetalheActivity extends AppCompatActivity {
 
         if (tela == 1) {
 
-            setTitle( "Flor de Pau Brasil" );
+            setTitle( "Pau Brasil" );
 
             imageFloraDetalhe.setImageResource( R.drawable.florbrasil );
 
